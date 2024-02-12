@@ -1,0 +1,76 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7791fb;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #9cb7d3;
+
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: rgb(59, 14, 183);
+}
+
+h2 {
+    color:#601e9d;
+}
+
+
+
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid  #601e9d;
+
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+legend {
+    color: #7791fb;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #7791fb;
+    border-radius: 7px;
+}
+
+input[type="submit"] {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #601e9d;
+}
+
+/* Additional styles can be added for specific elements as needed */

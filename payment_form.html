@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        
+        <h1>Payment Form</h1>
+       <!-- <h2>User Information</h2> -->
+
+        <fieldset  >
+            <legend>
+                <h2 style="color: rgb(17, 17, 140);" >User Information</h2>
+            </legend>
+        
+        <div>First Name:  * <input type="text" name="f_name" required></div>
+        <div>Last Name:  *<input type="text" name="l_name"required></div>
+        
+        <div>
+            <fieldset>
+                <legend>Gender  *</legend>
+                Male <input type="radio" name="gender" id="Male" required>
+                Female <input type="radio" name="gender" id="Female" required>
+                costom <input type="radio" name="gender" id="not_prefer"required>
+            </fieldset>
+        </div>
+
+        <div>
+            Address:<textarea name="address" id="address" cols="100" rows="8"></textarea>
+        </div>
+
+        <div>
+            Email:  *<input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            Postal Code:  *<input type="number" name="postal_code" id="postal_code" required>
+        </div>
+        </fieldset>
+        <br>
+        
+
+        <fieldset>
+            <legend><h2>Payment Information</h2></legend>
+            <div>
+                Card Type:  *
+                <select name="card_type" id="card_type" required>
+                    <option value="">--select card type--</option>
+                    <option value="visa">Visa Card</option>
+                    <option value="master">Master Card</option>
+                    <option value="pakpay">Pakistan Pay</option>
+                </select>
+            </div>
+
+            <div>
+                Card Number:  *<input type="number" name="card_number" id="card_number" required>
+            </div>
+
+            <div>
+                Expiration Date:  *<input type="date" name="exp_date" id="exp_date" required>
+            </div>
+
+            <div>
+                CVC:  *<input type="password" name="cvc" id="cvc" required>
+            </div>
+            <input type="submit" value="pay Now">
+
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        
+
+    </form>
+
+</body>
+</html>
